@@ -58,7 +58,7 @@ include("Php/config.php");
 
 
 
-																	$query =" select* from questions";
+																	$query =" select Question_no from questions where id = 1";
 
 																													
 
@@ -78,14 +78,15 @@ include("Php/config.php");
 
 
 																			?> 
+																			<a href="question.php?id=<?php echo $Question_No?>"> Start Quiz </a> 
 
 																		 <tr>
 
 																					
-																					  <td><?php echo $Question_No?></td>
-																					  <td><?php echo $row['Text']?></td>
+																					  <td><?php echo "Please click the link"?></td>
+																					  <td></td>
 																					
-																					  <td><a href="question.php?id=<?php echo $Question_No?>"> question </a> </td>																					  
+																					  <td><a href="question.php?id=<?php echo $Question_No?>"> Start Quiz </a> </td>																					  
 																					  
 																					  
 																					</tr>
