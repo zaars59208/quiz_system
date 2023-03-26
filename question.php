@@ -80,7 +80,7 @@
 				<ul>
 				
 					<li> <a href="#"> Home </a></li>
-					<li> <a href="#"> Services </a></li>
+					<li> <a href="services.php"> Services </a></li>
 					<li> <a href="#"> Choose Subject </a></li>
 					<li> <a href="#"> Feedback </a></li>
 					<li> <a href="#"> Contact Us </a></li>
@@ -96,7 +96,7 @@
 
 	<div class="container">
 		
-				<center><h3> Welcome to Online Quiz System </h3>		<p> Question <?php 	echo $Question_No?>/3 </p>
+				<center><h3> Welcome to Online Quiz System  </h3>		<p> Question <?php 	echo $Question_No?>/3 </p>
 				
 								</center>
 <form method="POST" action=" ">
