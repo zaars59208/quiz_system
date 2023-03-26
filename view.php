@@ -32,7 +32,7 @@
 
 	<div class="container">
 				<a href="question.php?Question_no=<?php echo $Question_No?>"> </a>
-				<center><h3> Welcome to Online Quiz System </h3>		<p> Question 1/3 </p>
+				<center><h3> Welcome to Online Quiz System an updated </h3>		<p> Question 1/3 </p>
 				
 								</center>
 <form>
